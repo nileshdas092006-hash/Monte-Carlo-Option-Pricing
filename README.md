@@ -127,7 +127,7 @@ g++ src/main.cpp -o main
 This generates:
 
 ```
-result/convergence.csv
+result/sample_output.csv
 ```
 
 ### Run Visualization Script
@@ -147,7 +147,7 @@ python plot/plot.py
 This generates convergence plots inside:
 
 ```
-plots/
+plots/sample_convergence.png
 ```
 
 ## Convergence Results

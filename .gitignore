@@ -5,17 +5,13 @@
 # object files
 *.o
 
-# generated data
-result/*.csv
-plots/*.png
+# generated data (except samples)
+result/convergence.csv
+plots/convergence_*.png
 
 # python cache
 __pycache__/
 *.pyc
-
-# OS files
-.DS_Store
-Thumbs.db
 
 # vscode
 .vscode/

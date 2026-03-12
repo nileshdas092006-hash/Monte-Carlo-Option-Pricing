@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = pd.read_csv("../result/convergence.csv")
+data = pd.read_csv("../result/sample_output.csv")
 # print(data.columns)
 # for sigma in data["Sigmas"].unique():
 #     subset = data[data["Sigmas"] == sigma]
